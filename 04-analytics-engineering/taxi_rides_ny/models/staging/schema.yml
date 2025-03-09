@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: staging
+    database: ny-taxi-450806
+    schema: de_zoomcamp
+    tables:
+      - name: green_tripdata_non_partitioned
+      - name: yellow_tripdata_non_partitioned
